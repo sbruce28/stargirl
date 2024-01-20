@@ -57,4 +57,18 @@ h2{
 .footer {
     grid-area: footer;
     background-color: #0b51b5;
+    padding: 10px;
+    text-align: center;
+}
+
+/*resposive layout - stacks columns on top of eachother*/
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-areas:
+        'header header header header header header'
+        'left left left left left left'
+        'middle middle middle middle middle middle'
+        'right right right right right right'
+        'footer footer footer footer footer footer';
+    }
 }
