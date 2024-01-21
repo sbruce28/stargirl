@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>starter portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+        <style>
+        body {font-family: "forma-djr-deck", sans-serif;}
+        .w3-row img {margin-bottom: -8px}
+        </style>
+        </head>
+        <body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+    <!-- HEADER -->
+    <header class="w3-container w3-xlarge w3-padding-24">
+        <a href="#" class="w3-left w3-button w3-white">STARGIRL DESIGN STUDIOS</a>
+        <a href="#about" class="w3-right w3-button w3-white0">About</a>
+    </header>
+
+    <!-- Photo Grid -->
+    <div class="w3-row">
+        <div class="w3-half">
+            <img src=""
